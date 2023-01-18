@@ -1,0 +1,151 @@
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+.mySlides {display:block}
+
+
+.image3 {
+vertical-align:text-top;
+width: 700px;
+height: 500px;
+object-fit: cover;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+
+/* The dots/bullets/idicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 4.0s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 6.0s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.datum-popis {
+    font-family: "Courgette", monospace;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #d33154 ;
+}
+
+
+#uvod {
+    font-family:"Courgette", monospace;
+    background-color: #d33154 ;
+    color: white;
+    }
+
+
+#back-program {
+    background: #d33154;
+}
+
+.program {
+    font-family:"Courgette", monospace; 
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    color: #d33154;
+    text-align: center;
+    background-color: white;
+    border: dashed;
+    padding-top: 3rem;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.obrad {
+    padding-bottom: 1rem;
+}
+
+.card-text-a {
+    font-family:"Courgette", monospace;
+    color: #d33154 ;
+    text-align: center;
+    font-size:x-large;
+    padding-top: 1.5rem;
+
+}
+
+a {
+    align-items: center;
+}
+
+.image1 {
+    padding-top: 2rem;
+}
+
+
+
+iframe {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5rem;
+}
+
+
+.ubytko {
+    font-family:"Courgette", monospace; 
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    color: #d33154;
+    text-align: center;
+    background-color: white;
+    border: dashed;
+   padding-top: 2rem;
+    display: inline-block;
+    margin-right: 2rem;
+
+}
+
